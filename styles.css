@@ -10,7 +10,7 @@ body {
     height: 100vh;
     background: #000;
     /* Fallback color */
-    background-image: url("mental.webp");
+    background-image: url("./mental.webp");
     /* Add your image filename here */
     background-size: cover;
     background-position: center;
