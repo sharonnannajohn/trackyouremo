@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    /* Fallback color */
+    background-image: url("mental.webp");
+    /* Add your image filename here */
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+background: rgba(0, 0, 0, 0.5);
+padding: 20px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+bottom: 10%; /* Adjust this value to move it further up or down */
+left: 50%;
+transform: translateX(-50%); /* Center it horizontally */
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1 {font-size: 3rem;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.start {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+   
+
+}
+.btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1.5rem;
+    font-family: 'Arial Black', sans-serif;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Optional hover effect */
+button:hover {
+    background: #ffffff;
+    color: #000000;
+}
